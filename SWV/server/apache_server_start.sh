@@ -1,0 +1,1 @@
+/bin/httpd -k start
