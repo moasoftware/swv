@@ -1,7 +1,7 @@
 # Software Visualizaton
 
 ### 구성
-#### 설치시 용량: 약 10G
+#### 설치시 용량: 약 10G 이상 
 
 ```
 - CentOS7
