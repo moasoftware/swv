@@ -41,7 +41,7 @@
 ```
 CentOS 7 이상의 리눅스 OS
 ```
-CentOS 7 설치 방법 : https://github.com/moasoftware/swv/edit/master/README_os.md
+CentOS 7 설치 방법 : https://github.com/moasoftware/swv/blob/master/README_os.md
 
 # USB 설치
 SWVpack.tar.gz를 사용하여 설치.  
