@@ -37,8 +37,13 @@
 - tools
   - redmine(config file)
 
+### Prerequisites
+```
+CentOS 7 이상의 리눅스 OS
+```
+CentOS 7 설치 방법 : https://github.com/moasoftware/swv/edit/master/README_os.md
 
-# 2. USB 설치
+# USB 설치
 SWVpack.tar.gz를 사용하여 설치.  
 usb파일 옮기기
 ```sh
