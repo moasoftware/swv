@@ -4,7 +4,7 @@
 
 1. 직접 다운로드를 통한 설치 가이드
 
-   https://github.com/moasoftware/swv/blob/master/README_WEBINSTALL.md
+   https://github.com/moasoftware/swv/blob/master/README_webinstall.md
 
 
 
