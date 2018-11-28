@@ -10,7 +10,8 @@
 ```
 CentOS 7 이상의 리눅스 OS
 ```
-CentOS 7 설치 방법 : https://github.com/moasoftware/swv/edit/master/README_os.md
+CentOS 7 설치 방법 : https://github.com/moasoftware/swv/blob/master/README_os.md
+
 ### Installing
 
 1. SWV 환경 구축을 위한 기본 디렉터리 생성
