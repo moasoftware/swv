@@ -36,7 +36,9 @@
   - graphviz
 - tools
   - redmine(config file)
-
+  - maven
+  - pmd
+  - nexus
 ### Prerequisites
 ```
 CentOS 7 이상의 리눅스 OS
