@@ -44,9 +44,9 @@ chmod 755 /usr/local/SWV/webapps/*
 ### mysql_install.sh
 /usr/local/SWV/server/mysql_install.sh
 # 중간에 암호 입력을 물어보면 다음과 같이 입력
-# Enter password for user root : [기존 비밀번호 입력(ssssssss)]
-# New password: [바꿀 비밀번호 입력(ssssssss)]
-# Re-enter new password: [바꿀 비밀번호 다시 입력(ssssssss)]
+# Enter password for user root : [기존 비밀번호 입력(password)]
+# New password: [바꿀 비밀번호 입력(password)]
+# Re-enter new password: [바꿀 비밀번호 다시 입력(password)]
 # [기타 물음에 모두 엔터를 입력하여 default 값 입력]
 
 ### ruby_install.sh

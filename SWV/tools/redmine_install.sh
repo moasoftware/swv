@@ -8,10 +8,10 @@ sed -i 's?username: root?username:redmine?' /usr/local/SWV/tools/redmine/config/
 sed -i 's?password: ""?password: "1q2w3e4r"?' /usr/local/SWV/tools/redmine/config/database.yml
 sed -i 's?encoding: utf8?encoding: utf8\n  socket: /usr/local/SWV/server/mysql/data/mysql.sock?' /usr/local/SWV/tools/redmine/config/database.yml
 cd /usr/local/SWV/server/mysql/bin
-./mysql -uroot -p"ssssssss" mysql -e "CREATE DATABASE redmine CHARACTER SET utf8 COLLATE utf8_general_ci;"
-./mysql -uroot -p"ssssssss" mysql -e "CREATE USER 'redmine'@'localhost'IDENTIFIED BY '1q2w3e4r';"
-./mysql -uroot -p"ssssssss" mysql -e "GRANT ALL PRIVILEGES ON redmine.* TO 'redmine'@'localhost';"
-./mysql -uroot -p"ssssssss" mysql -e "FLUSH PRIVILEGES;"
+./mysql -uroot -p"password" mysql -e "CREATE DATABASE redmine CHARACTER SET utf8 COLLATE utf8_general_ci;"
+./mysql -uroot -p"password" mysql -e "CREATE USER 'redmine'@'localhost'IDENTIFIED BY '1q2w3e4r';"
+./mysql -uroot -p"password" mysql -e "GRANT ALL PRIVILEGES ON redmine.* TO 'redmine'@'localhost';"
+./mysql -uroot -p"password" mysql -e "FLUSH PRIVILEGES;"
 yum -y install patch
 cd /usr/local/SWV/dev/ruby/bin
 ./gem install nokogiri -v '1.8.5'

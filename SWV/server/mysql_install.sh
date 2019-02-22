@@ -72,8 +72,8 @@ source /etc/profile
 cd /usr/local/SWV/server/mysql/bin
 ./mysqld &
 
-### MySQL 초기비밀번호 바꿔주기 (본 문서에서는 ssssssss로 입력)
-./mysql -uroot mysql -e "update user set authentication_string=password('ssssssss') where user='root'"
+### MySQL 초기비밀번호 바꿔주기 (본 문서에서는 password로 입력)
+./mysql -uroot mysql -e "update user set authentication_string=password('password') where user='root'"
 ./mysql -uroot mysql -e "flush privileges"
 
 ###MySQL Secure Installation 수행 - 기존 비밀번호 Input값
