@@ -1,1 +1,1 @@
-/bin/httpd -k start
+/usr/local/SWV/server/httpd/bin/httpd -k start
