@@ -2,7 +2,7 @@
 
 ##### 
 
-1. sh 파일을 이용한 설치 가이드
+1. 쉘 스크립트 파일(install.sh)을 이용한 설치 가이드
 
    https://github.com/moasoftware/swv/blob/master/README_webinstall_using_SHfiles.md
 
