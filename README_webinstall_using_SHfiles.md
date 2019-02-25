@@ -1,4 +1,4 @@
-# Software Visualization Environment Install Guide for Linux
+﻿# Software Visualization Environment Install Guide for Linux
 
 ## Getting Started
 
@@ -14,7 +14,15 @@ CentOS 7 설치 방법 : https://github.com/moasoftware/swv/blob/master/README_o
 
 ### Installing
 
-1. 설치 작업 수행하기
+1. 파일 다운로드 받기
+- https://github.com/moasoftware/swv에서 파일 다운로드
+```
+# wget https://github.com/moasoftware/swv/archive/master.zip
+# unzip master.zip
+# cd swv-master
+```
+
+2. 설치 작업 수행하기
 - root 권한으로 로그인 후, SWV 디렉터리의 install.sh를 실행
 ```
 # su - root
@@ -39,7 +47,7 @@ Re-enter new password: [바꿀 비밀번호 다시 입력]
 
 
 
-2. 설치 완료 후 Jenkins 세팅하기
+3. 설치 완료 후 Jenkins 세팅하기
 
 - 웹브라우저를 이용하여 Jenkins 실행 확인(http://localhost/jenkins 경로로 접근)
   ![](C:/Users/ws/Desktop/swv2/swv/images/003_jenkinsresult1.jpg)
