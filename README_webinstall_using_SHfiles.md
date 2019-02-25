@@ -14,7 +14,7 @@ CentOS 7 설치 방법 : https://github.com/moasoftware/swv/blob/master/README_o
 
 ### Installing
 
-1. 파일 다운로드 받기
+1. 파일 다운로드 받기 
 - https://github.com/moasoftware/swv에서 파일 다운로드 
 ```
 # wget https://github.com/moasoftware/swv/archive/master.zip
